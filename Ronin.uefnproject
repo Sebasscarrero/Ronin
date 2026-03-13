@@ -1,0 +1,114 @@
+{
+	"fileVersion": 15,
+	"title": "Ronin",
+	"description": "",
+	"keyArt": "",
+	"docsUrl": "",
+	"apiAccess": "Private",
+	"compatibilityVersion": "39.51",
+	"requiredRedirectorStartingVersion": "39.11.49242330",
+	"editorPermissions": [],
+	"epicApp": "",
+	"sortPriority": 0,
+	"featureSet": "",
+	"plugins": [
+		{
+			"name": "Ronin",
+			"bIsRoot": true,
+			"bIsPublic": false
+		}
+	],
+	"dataSets":
+	{
+		"matchmaking":
+		{
+			"maxPlayers": 16,
+			"maxTeamCount": 16,
+			"maxTeamSize": 16,
+			"maxSocialPartySize": 16,
+			"allowJoinInProgress": true,
+			"allowSquadFillOption": false,
+			"islandQueuePrivacy": "Public",
+			"minPlayers": 1,
+			"overtimePlayerTarget": 1,
+			"queueMainDuration": 5,
+			"queueOvertimeDuration": 5,
+			"useSkillBasedMatchmaking": false,
+			"ratingType": "",
+			"version": 1
+		},
+		"experimental":
+		{
+			"sceneGraph":
+			{
+				"bIsSceneGraphSystemAllowed": true,
+				"bEnableOneFilePerEntity": false
+			},
+			"personaDevice":
+			{
+				"bEnablePersonaDevice": false
+			},
+			"version": 1
+		},
+		"ugcLocalization":
+		{
+			"nativeCulture": "en",
+			"culturesToGenerate": [
+				"ar",
+				"de",
+				"en",
+				"es",
+				"es-419",
+				"fr",
+				"id",
+				"it",
+				"ja",
+				"ko",
+				"pl",
+				"pt-BR",
+				"ru",
+				"th",
+				"tr",
+				"vi",
+				"zh-Hans",
+				"zh-Hant"
+			],
+			"poFormat": "Unreal"
+		},
+		"autoLocalization":
+		{
+			"bAutoBuildLocalization": true,
+			"cultures": [
+				"ar",
+				"de",
+				"en",
+				"es",
+				"es-419",
+				"fr",
+				"id",
+				"it",
+				"ja",
+				"ko",
+				"pl",
+				"pt-BR",
+				"ru",
+				"th",
+				"tr",
+				"vi",
+				"zh-Hans",
+				"zh-Hant"
+			],
+			"mode": "All"
+		}
+	},
+	"bindings":
+	{
+		"projectId": "81043c0a-4133-8842-f6ae-5f83b871c61f",
+		"modules":
+		{
+			"Ronin": "18ecbc1a-411e-c7b4-ad88-0ebdd63b78c1"
+		},
+		"bSuppressAutomaticVersePathAssignment": false,
+		"projectVersePath": "/sebassca@fortnite.com/Ronin"
+	}
+}
